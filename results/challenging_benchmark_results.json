@@ -1,0 +1,222 @@
+[
+  {
+    "model": "ResNet-IBN",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 94.64,
+    "rank5": 97.55,
+    "rank10": 98.63,
+    "mAP": 74.71,
+    "rank1_drop": 0.0,
+    "mAP_drop": 0.0
+  },
+  {
+    "model": "Swin-T",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 94.87,
+    "rank5": 97.62,
+    "rank10": 98.39,
+    "mAP": 75.3,
+    "rank1_drop": 0.0,
+    "mAP_drop": 0.0
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 92.19,
+    "rank5": 96.36,
+    "rank10": 98.03,
+    "mAP": 68.68,
+    "rank1_drop": 2.45,
+    "mAP_drop": 6.03
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 82.3,
+    "rank5": 90.76,
+    "rank10": 93.8,
+    "mAP": 50.71,
+    "rank1_drop": 12.34,
+    "mAP_drop": 24.0
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 71.63,
+    "rank5": 82.54,
+    "rank10": 87.19,
+    "mAP": 36.12,
+    "rank1_drop": 23.01,
+    "mAP_drop": 38.59
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 91.6,
+    "rank5": 96.19,
+    "rank10": 98.15,
+    "mAP": 65.96,
+    "rank1_drop": 3.04,
+    "mAP_drop": 8.75
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 83.79,
+    "rank5": 92.61,
+    "rank10": 95.23,
+    "mAP": 47.43,
+    "rank1_drop": 10.85,
+    "mAP_drop": 27.28
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 71.33,
+    "rank5": 84.98,
+    "rank10": 89.33,
+    "mAP": 27.67,
+    "rank1_drop": 23.31,
+    "mAP_drop": 47.04
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 86.35,
+    "rank5": 93.62,
+    "rank10": 96.19,
+    "mAP": 54.29,
+    "rank1_drop": 8.29,
+    "mAP_drop": 20.42
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 57.39,
+    "rank5": 73.3,
+    "rank10": 79.8,
+    "mAP": 18.04,
+    "rank1_drop": 37.25,
+    "mAP_drop": 56.67
+  },
+  {
+    "model": "ResNet-IBN",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 22.59,
+    "rank5": 39.93,
+    "rank10": 48.81,
+    "mAP": 5.03,
+    "rank1_drop": 72.05,
+    "mAP_drop": 69.68
+  },
+  {
+    "model": "Swin-T",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 92.01,
+    "rank5": 96.54,
+    "rank10": 98.03,
+    "mAP": 70.58,
+    "rank1_drop": 2.86,
+    "mAP_drop": 4.72
+  },
+  {
+    "model": "Swin-T",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 84.03,
+    "rank5": 91.54,
+    "rank10": 93.98,
+    "mAP": 55.31,
+    "rank1_drop": 10.84,
+    "mAP_drop": 19.99
+  },
+  {
+    "model": "Swin-T",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 69.96,
+    "rank5": 82.78,
+    "rank10": 87.54,
+    "mAP": 39.32,
+    "rank1_drop": 24.91,
+    "mAP_drop": 35.98
+  },
+  {
+    "model": "Swin-T",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 93.86,
+    "rank5": 97.14,
+    "rank10": 98.33,
+    "mAP": 71.3,
+    "rank1_drop": 1.01,
+    "mAP_drop": 4.0
+  },
+  {
+    "model": "Swin-T",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 89.39,
+    "rank5": 95.59,
+    "rank10": 97.32,
+    "mAP": 63.28,
+    "rank1_drop": 5.48,
+    "mAP_drop": 12.02
+  },
+  {
+    "model": "Swin-T",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 83.49,
+    "rank5": 92.07,
+    "rank10": 94.87,
+    "mAP": 52.18,
+    "rank1_drop": 11.38,
+    "mAP_drop": 23.12
+  },
+  {
+    "model": "Swin-T",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 91.24,
+    "rank5": 96.36,
+    "rank10": 98.15,
+    "mAP": 66.32,
+    "rank1_drop": 3.63,
+    "mAP_drop": 8.98
+  },
+  {
+    "model": "Swin-T",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 73.78,
+    "rank5": 87.07,
+    "rank10": 92.67,
+    "mAP": 38.33,
+    "rank1_drop": 21.09,
+    "mAP_drop": 36.97
+  },
+  {
+    "model": "Swin-T",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 23.12,
+    "rank5": 39.87,
+    "rank10": 47.74,
+    "mAP": 5.99,
+    "rank1_drop": 71.75,
+    "mAP_drop": 69.31
+  }
+]

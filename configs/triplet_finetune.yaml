@@ -1,0 +1,61 @@
+# Dataset Paths
+data_dir: "datasets"
+train_csv_path: "datasets/annot/train_annot.csv"
+val_csv_path: "datasets/annot/val_annot.csv"
+query_csv_path: "datasets/annot/query_full.csv"
+gallery_csv_path: "datasets/annot/gallery_full.csv"
+
+# Output
+name: "triplet_finetune"
+
+# System and Hardware
+gpu_ids: "0"
+tpu_cores: -1
+num_workers: 4
+fp16: false
+seed: 1234
+
+# Training Schedule
+warm_epoch: 2
+total_epoch: 20
+save_freq: 5
+checkpoint: "model/triplet_baseline/net_69.pth"
+start_epoch: 0
+debug: false
+debug_period: 100
+
+# Optimizer & Learning Rate
+optimizer: "adamw"
+lr: 0.0001
+weight_decay: 0.0005
+cosine: true
+grad_clip_max_norm: 50.0
+
+# Batch Strategy
+batchsize: 64
+samples_per_class: 4
+
+# Model Options
+model: "resnet_ibn"
+model_subtype: "default"
+mixstyle: false
+linear_num: 0
+stride: 1
+droprate: 0.5
+
+# Data Augmentation
+challenging_aug: true
+erasing_p: 0.5
+color_jitter: true
+
+# Losses & Label Smoothing
+label_smoothing: 0.1
+arcface: false
+circle: false
+cosface: false
+contrast: false
+instance: false
+ins_gamma: 32
+triplet: true
+lifted: false
+sphere: false

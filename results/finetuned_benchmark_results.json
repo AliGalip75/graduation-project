@@ -1,0 +1,362 @@
+[
+  {
+    "model": "ResNet-Base",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 94.64,
+    "rank5": 97.56,
+    "rank10": 98.63,
+    "mAP": 74.72
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 92.19,
+    "rank5": 96.36,
+    "rank10": 98.03,
+    "mAP": 68.68
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 82.3,
+    "rank5": 90.76,
+    "rank10": 93.8,
+    "mAP": 50.71
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 71.63,
+    "rank5": 82.54,
+    "rank10": 87.19,
+    "mAP": 36.12
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 91.6,
+    "rank5": 96.19,
+    "rank10": 98.15,
+    "mAP": 65.96
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 83.79,
+    "rank5": 92.61,
+    "rank10": 95.23,
+    "mAP": 47.43
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 71.33,
+    "rank5": 84.98,
+    "rank10": 89.33,
+    "mAP": 27.66
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 86.35,
+    "rank5": 93.62,
+    "rank10": 96.19,
+    "mAP": 54.29
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 57.39,
+    "rank5": 73.3,
+    "rank10": 79.86,
+    "mAP": 18.04
+  },
+  {
+    "model": "ResNet-Base",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 22.53,
+    "rank5": 39.93,
+    "rank10": 48.81,
+    "mAP": 5.03
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 95.05,
+    "rank5": 97.56,
+    "rank10": 98.51,
+    "mAP": 74.71
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 94.04,
+    "rank5": 97.8,
+    "rank10": 98.51,
+    "mAP": 73.44
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 90.41,
+    "rank5": 95.41,
+    "rank10": 97.5,
+    "mAP": 68.11
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 85.22,
+    "rank5": 92.73,
+    "rank10": 95.35,
+    "mAP": 58.94
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 94.52,
+    "rank5": 97.5,
+    "rank10": 98.57,
+    "mAP": 72.79
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 92.25,
+    "rank5": 97.02,
+    "rank10": 98.57,
+    "mAP": 68.84
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 89.27,
+    "rank5": 95.59,
+    "rank10": 97.38,
+    "mAP": 62.4
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 93.15,
+    "rank5": 96.66,
+    "rank10": 98.51,
+    "mAP": 70.76
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 89.21,
+    "rank5": 95.95,
+    "rank10": 97.32,
+    "mAP": 60.6
+  },
+  {
+    "model": "ResNet-Fine",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 76.7,
+    "rank5": 88.86,
+    "rank10": 93.21,
+    "mAP": 41.57
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 94.87,
+    "rank5": 97.62,
+    "rank10": 98.39,
+    "mAP": 75.3
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 92.01,
+    "rank5": 96.54,
+    "rank10": 98.03,
+    "mAP": 70.58
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 84.03,
+    "rank5": 91.54,
+    "rank10": 93.98,
+    "mAP": 55.31
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 69.96,
+    "rank5": 82.78,
+    "rank10": 87.54,
+    "mAP": 39.32
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 93.86,
+    "rank5": 97.14,
+    "rank10": 98.33,
+    "mAP": 71.3
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 89.39,
+    "rank5": 95.59,
+    "rank10": 97.32,
+    "mAP": 63.28
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 83.49,
+    "rank5": 92.07,
+    "rank10": 94.87,
+    "mAP": 52.18
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 91.24,
+    "rank5": 96.36,
+    "rank10": 98.15,
+    "mAP": 66.32
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 73.78,
+    "rank5": 87.07,
+    "rank10": 92.67,
+    "mAP": 38.33
+  },
+  {
+    "model": "Swin-Base",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 23.12,
+    "rank5": 39.87,
+    "rank10": 47.74,
+    "mAP": 5.99
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "clean",
+    "level": 0,
+    "rank1": 94.99,
+    "rank5": 97.85,
+    "rank10": 98.57,
+    "mAP": 76.31
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "darkness",
+    "level": 1,
+    "rank1": 94.52,
+    "rank5": 97.26,
+    "rank10": 98.39,
+    "mAP": 75.37
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "darkness",
+    "level": 2,
+    "rank1": 92.43,
+    "rank5": 96.36,
+    "rank10": 97.62,
+    "mAP": 70.55
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "darkness",
+    "level": 3,
+    "rank1": 86.83,
+    "rank5": 93.62,
+    "rank10": 96.07,
+    "mAP": 62.5
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "noise",
+    "level": 1,
+    "rank1": 94.4,
+    "rank5": 97.02,
+    "rank10": 98.57,
+    "mAP": 74.02
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "noise",
+    "level": 2,
+    "rank1": 92.19,
+    "rank5": 96.6,
+    "rank10": 98.21,
+    "mAP": 69.74
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "noise",
+    "level": 3,
+    "rank1": 89.21,
+    "rank5": 95.05,
+    "rank10": 97.62,
+    "mAP": 63.65
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "rain",
+    "level": 1,
+    "rank1": 93.8,
+    "rank5": 97.32,
+    "rank10": 98.21,
+    "mAP": 72.69
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "rain",
+    "level": 2,
+    "rank1": 90.46,
+    "rank5": 95.71,
+    "rank10": 97.85,
+    "mAP": 65.9
+  },
+  {
+    "model": "Swin-Fine",
+    "condition": "rain",
+    "level": 3,
+    "rank1": 78.07,
+    "rank5": 91.95,
+    "rank10": 94.64,
+    "mAP": 49.44
+  }
+]
