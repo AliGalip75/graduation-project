@@ -155,8 +155,8 @@ async def search(file: UploadFile = File(...), model_name: str = Form(...)):
     # Kosinüs Benzerliği (Cosine Similarity) hesapla
     scores = np.dot(final_gallery_features, query_feat.T).flatten()
     
-    # En yüksek skora sahip 12 resmi bul
-    top_indices = np.argsort(scores)[::-1][:12]
+    # En yüksek skora sahip 20 resmi bul
+    top_indices = np.argsort(scores)[::-1][:20]
     
     results = []
     for idx in top_indices:
